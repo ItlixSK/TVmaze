@@ -9,5 +9,5 @@ import retrofit2.http.GET
 interface ApiService {
 
     @GET(END_POINT)
-    suspend fun getTvShows():Response<TvModelResponse>
+    suspend fun getTvShow():Response<TvModelResponse>
 }
